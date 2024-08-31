@@ -175,7 +175,7 @@ while True:
             wn.clear()
             wn.bgcolor("red")
             scoreBoard.goto(0, 0)
-            scoreBoard.write("GAME OVER! \n\nYOUR SCORE: {} \nHIGH SCORE: {}".format(score, high_score), align="center", font=("Courier", 30, "bold"))
+            scoreBoard.write("GAME OVER! \nCUPU BANGET >< \n\nYOUR SCORE: {} \nHIGH SCORE: {}".format(score, high_score), align="center", font=("Courier", 30, "bold"))
 
     time.sleep(delay)
 turtle.Terminator()
